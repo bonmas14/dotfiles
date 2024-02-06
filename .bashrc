@@ -114,4 +114,4 @@ fi
 
 export PATH=$PATH:/snap/bin
 
-alias config='/usr/bin/git --git-dir=/home/bonmas/.dotfiles/ --work-tree=/home/bonmas'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
