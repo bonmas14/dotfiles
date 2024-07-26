@@ -1,5 +1,3 @@
-vim.cmd 'autocmd BufRead,BufNewFile *.vert,*.frag,*.geom,mix.lock set filetype=glsl'
-
 vim.opt.nu = true
 
 vim.opt.tabstop = 4
