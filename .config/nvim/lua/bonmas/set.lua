@@ -23,3 +23,4 @@ vim.opt.colorcolumn = "80"
 vim.g.mapleader = " "
 
 vim.opt_local.wrap = false
+vim.opt.wrap = false
