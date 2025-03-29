@@ -1,5 +1,6 @@
 vim.opt.nu = true
 
+vim.opt.makeprg = 'build'
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -8,7 +9,7 @@ vim.wo.relativenumber = true
 
 vim.opt.swapfile = false
 vim.backup = false
-vim.undodir = "$HOME/.vim/undodir"
+vim.undodir = "C:\\.vim\\undodir"
 vim.opt.undofile = true
 
 vim.hlsearch = false
