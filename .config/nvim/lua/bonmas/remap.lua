@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pe", ":Rex<Enter>")
+vim.keymap.set("n", "<leader>pe", ":Ex<Enter>")
 vim.keymap.set("n", "<leader>t", ":tabnew<Enter>:term<Enter>i")
 vim.keymap.set("t", "<ESC><ESC>", "<C-\\><C-n>")
 vim.keymap.set("t", "<C-w>", "<C-\\><C-n><C-w>")
