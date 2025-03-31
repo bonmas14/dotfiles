@@ -1,4 +1,5 @@
-require("bonmas")
+require("bonmas14")
 require("solum")
 
-vim.api.nvim_exec('language en_US', true)
+vim.cmd('colorscheme sorbet')
+

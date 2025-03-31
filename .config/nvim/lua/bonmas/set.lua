@@ -9,7 +9,6 @@ vim.wo.relativenumber = true
 
 vim.opt.swapfile = false
 vim.backup = false
-vim.undodir = "C:\\.vim\\undodir"
 vim.opt.undofile = true
 
 vim.hlsearch = false

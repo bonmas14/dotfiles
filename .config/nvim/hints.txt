@@ -1,8 +1,0 @@
-go back to netrw explorer:
-	<leader>pv
-
-undotree:
-	<leader>u
-
-harpoon:
-	<leader>a --add to harpoon
