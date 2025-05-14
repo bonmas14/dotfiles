@@ -1,5 +1,5 @@
-require("bonmas14")
+require("bonmas")
 require("solum")
 
-vim.cmd('colorscheme sorbet')
+vim.cmd('colorscheme blissful-orange')
 

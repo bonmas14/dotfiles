@@ -14,6 +14,5 @@ return require('packer').startup(function(use)
 		}
 	)
 
-	use 'theprimeagen/harpoon'
 	use 'tpope/vim-fugitive'
 end)

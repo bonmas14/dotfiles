@@ -15,7 +15,9 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 
 vim.keymap.set("n", "<leader>n",  ":tabnew<Enter>")
 vim.keymap.set("n", "<leader>pv", ":Tex<Enter>")
-vim.keymap.set("n", "<leader>h",  ":tabnext<Enter>")
-vim.keymap.set("n", "<leader>l",  ":tabprevious<Enter>")
+vim.keymap.set("n", "<leader>l",  ":tabnext<Enter>")
+vim.keymap.set("n", "<leader>h",  ":tabprevious<Enter>")
 
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<leader>s", [[:s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<leader>r", [[n:~<Enter>]])
+
