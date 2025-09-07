@@ -10,6 +10,7 @@ vim.wo.relativenumber = true
 vim.opt.swapfile = false
 vim.backup = false
 vim.opt.undofile = true
+vim.opt.shada = ""
 
 vim.hlsearch = false
 vim.incsearch = true
