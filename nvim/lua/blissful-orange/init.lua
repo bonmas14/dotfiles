@@ -41,6 +41,11 @@ function blissful_orange.setup()
   set(0, 'CursorLine', { bg = '#303030' })
   set(0, 'StatusLine', { fg = '#FFFFFF', bg = '#404040', bold = true })
 
+  -- FLOATING WINDOW SUPPORT (NEW)
+  set(0, 'NormalFloat', { fg = '#FFFFFF', bg = '#1C1B1A' })
+  set(0, 'FloatBorder', { fg = '#5E584C', bg = '#1C1B1A' })
+  set(0, 'FloatTitle',  { fg = '#FFC547', bg = '#1C1B1A', bold = true })
+
   -- Netrw
   set(0, 'Directory',  { link = 'Type' })
   set(0, 'PreProc',    { link = 'Keyword' })
@@ -51,6 +56,12 @@ function blissful_orange.setup()
   set(0, 'TelescopeTitle',  { fg = '#FFFFFF', bg = '#1C1F1E'})
   set(0, 'TelescopeNormal', { fg = '#95EDCD', bg = '#1C1F1E'})
   set(0, 'TelescopeBorder', { fg = '#2C2F2E', bg = '#1C1F1E'})
+
+  -- Additional floating window related groups (OPTIONAL BUT RECOMMENDED)
+  set(0, 'Pmenu',        { fg = '#FFFFFF', bg = '#1C1B1A' })
+  set(0, 'PmenuSel',     { fg = '#1C1B1A', bg = '#FF9233' })
+  set(0, 'PmenuSbar',    { bg = '#2A2928' })
+  set(0, 'PmenuThumb',   { bg = '#5E584C' })
 end
 
 return blissful_orange
