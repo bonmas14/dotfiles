@@ -21,3 +21,4 @@ vim.keymap.set("n", "<leader>h",  ":tabprevious<Enter>")
 vim.keymap.set("n", "<leader>s", [[:s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>r", [[n:~<Enter>]])
 
+vim.keymap.set("n", "<leader>b", [[:tab :te build]])
