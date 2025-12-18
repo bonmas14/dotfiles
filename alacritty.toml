@@ -17,10 +17,9 @@ dimensions = { columns = 170, lines = 40 }
 decorations = "Full"
 
 [colors.cursor]
-
 text   = "#1C1B1A"
-cursor = "#CFF7CD"
+cursor = "#FCF0E0"
 
 [colors.primary]
-foreground = "#CFF7CD"
+foreground = "#FCF0E0"
 background = "#1C1B1A"
