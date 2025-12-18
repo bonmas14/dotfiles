@@ -1,0 +1,26 @@
+[general]
+working_directory = "C:\\Users\\bonmas14\\projects"
+live_config_reload = true
+
+[terminal]
+shell = "cmd"
+
+[font]
+normal = { family = "Cascadia Mono", style = "Regular" }
+size = 12
+
+# normal = { family = "Consolas", style = "Regular" }
+# size = 13
+
+[window]
+dimensions = { columns = 170, lines = 40 }
+decorations = "Full"
+
+[colors.cursor]
+
+text   = "#1C1B1A"
+cursor = "#CFF7CD"
+
+[colors.primary]
+foreground = "#CFF7CD"
+background = "#1C1B1A"
